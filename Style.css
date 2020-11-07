@@ -1,1 +1,46 @@
-
+body {
+	margin: 0;
+	padding: 0;
+	color: #333;
+	font-family: sans-serif;
+}
+.topbar {
+	width: 100%;
+	background: #333;
+}
+.intopbar {
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+}
+.intopbar h1 {
+	color: #fff;
+	margin: 0;
+	padding: 15px;
+}
+.container {
+	width: 100%;
+}
+.searchbox {
+	width: 70%;
+	margin: 0 auto;
+}
+.gridwrap {
+	display: grid;
+	justify-content: center;
+	grid-template-columns: auto auto auto;
+	padding: 30px;
+	box-sizing: border-box;
+	grid-gap: 30px;
+}
+.card {
+	display: block;
+	width: 100%;
+	border: 1px solid #ccc;
+	box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+.content {
+	padding: 15px;
+	box-sizing: border-box;
+}
