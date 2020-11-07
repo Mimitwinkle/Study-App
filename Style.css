@@ -9,7 +9,7 @@ body {
 	background: #333;
 }
 .intopbar {
-	width: 70%;
+	width: 65%;
 	margin: 0 auto;
 	text-align: center;
 	color: #fff;
@@ -17,14 +17,23 @@ body {
 .intopbar h1 {
 	color: #fff;
 	margin: 0;
-	padding: 15px;
+	padding: 20px;
+	font-size: 23pt;
 }
 .container {
 	width: 100%;
 }
+.incontainer {
+ 	width: 65%;
+ 	margin: 0 auto;
+ }
+.addlink {
+	width: 100%;
+}
 .searchbox {
-	width: 70%;
+	width: 65%;
 	margin: 0 auto;
+	padding: 30px 0px;
 }
 .gridwrap {
 	display: grid;
@@ -44,3 +53,9 @@ body {
 	padding: 15px;
 	box-sizing: border-box;
 }
+/*
+
+This css is for the add.html page
+
+ */
+
