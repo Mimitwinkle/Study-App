@@ -99,5 +99,11 @@ function closeForm() {
 }
 </script>
 
+<script>
+var linkName = link;
+document.getElementById("demo").innerHTML = linkName;
+</script>
+
+
 </body>
 </html>
