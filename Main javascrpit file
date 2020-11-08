@@ -1,1 +1,7 @@
+Main javascrpit 
+
+
+< head> <!--to represent html and where it would go-->
+<script>
+var addLink = prompt ("Please enter the link","");
 
