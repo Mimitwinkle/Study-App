@@ -13,8 +13,6 @@
 
 		<div class="incontainer">
 
-			<center><a class="nav" href="add.html">Add a Workout Video</a></center>
-
 			<div class="wrapcheckboxes">
 			<p>
 			<input type="checkbox" id="option1" name="option1" value="Upper Body">
@@ -56,4 +54,32 @@
 
 		</div>
 	</div>
+
+
+<button class="open-button" onclick="openForm()">Add a Video</button>
+
+
+<div class="form-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+
+    <label for="link"><h3>YouTube URL</h3></label>
+    <input type="text" class="feild" placeholder="Enter Link Here" name="Link" required>
+
+    <button type="submit" class="btn">Link</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+
+
+
 </body>
