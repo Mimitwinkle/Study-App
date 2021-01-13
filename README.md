@@ -1,5 +1,5 @@
 # Youtube Compiler
-This project was created by [Marjoriels](github.com/marjoriels) and Kelly Hills for the 2020 Cutie Hack hackathon.
+This project was created by [Marjoriels](github.com/marjoriels) and [Kelly Hills](github.com/mimitwinkle) for the 2020 Cutie Hack hackathon.
 
 # Inspiration
 More and more people are using YouTube for their workouts. Many find workout videos to be a great way to break a sweat during the coronavirus pandemic. However, searching YouTube for your favorite workout video can be time consuming as well as disorganized.
